@@ -1,0 +1,7 @@
+<h2>Places you want to travel to </h2>
+<ul class='places'>
+    <li *ngFor='let place of places'>
+        <span class='badge'>{{place.id}}</span> {{place.name}}
+    </li>
+</ul>
+<app-place-search></app-place-search>
